@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="ipdev99"
+          fetch="https://github.com/ipdev99" />
+
+  <remote name="followmsi"
+          fetch="https://github.com/followmsi" />
+
+  <!-- Nexus 7 [2013] "flo"(WiFi) "deb"(Mobile) -->
+  <project path="device/asus/flo" name="android_device_asus_flo" remote="ipdev99" revision="los-18.1" />
+  <project path="device/asus/deb" name="android_device_asus_deb" remote="followmsi" revision="los-18.1" />
+  <project path="kernel/google/msm" name="android_kernel_google_msm" remote="followmsi" revision="followmsi-11" />
+  <project path="vendor/asus" name="android_vendor" remote="followmsi" revision="flo-deb-lineage-18.1" />
+
+  <!-- Pixel C "dragon" -->
+  <project path="device/google/dragon" name="android_device_google_dragon" remote="followmsi" revision="los-18.1" />
+  <project path="kernel/google/tegra" name="android_kernel_tegra" remote="followmsi" revision="lineage-18.1" />
+  <project path="vendor/google" name="android_vendor" remote="followmsi" revision="dragon-11" />
+
+</manifest>
