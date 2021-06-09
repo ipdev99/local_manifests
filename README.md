@@ -37,7 +37,7 @@ repo sync
 
 Finally to build.
 
-Nexus 7 (2013) WiFi
+Nexus 10
 ````bash
 source build/envsetup.sh
 brunch manta
