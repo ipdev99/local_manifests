@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="ipdev99"
+          fetch="https://github.com/ipdev99" />
+
+  <remote name="followmsi"
+          fetch="https://github.com/followmsi" />
+
+  <!-- Nexus 10 "manta" -->
+  
+  <!-- Remove some lineage stuff -->
+  <remove-project name="LineageOS/android_packages_apps_Camera2" />
+  <remove-project name="LineageOS/android_hardware_broadcom_nfc" />
+  <remove-project name="platform/hardware/invensense" />
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_frameworks_av" />
+  <remove-project name="LineageOS/android_hardware_broadcom_libbt" />
+  <remove-project name="LineageOS/android_vendor_lineage" />
+
+  <!-- Add "manta" stuff -->
+  <project path="device/samsung/manta" name="android_device_samsung_manta" remote="followmsi" revision="los-16.0" />
+  <project path="hardware/samsung_slsi/exynos5" name="android_hardware_samsung_slsi_exynos5" remote="followmsi" revision="manta-aosp-p" />
+  <project path="kernel/samsung/manta" name="android_kernel_samsung_manta" remote="followmsi" revision="followmsi-pie" />
+  <project path="hardware/invensense" name="android_hardware_invensense" remote="followmsi" revision="android-9.0-manta" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="followmsi" revision="manta-los-16.0" />
+  <project path="frameworks/av" name="platform_frameworks_av" remote="followmsi" revision="manta-los-16.0" />
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="followmsi" revision="manta-los-16.0" />
+  <project path="vendor/samsung/manta" name="android_vendor" remote="followmsi" revision="manta-lineage-16.0" />
+  <project path="vendor/lineage" name="android_vendor_lineage" remote="followmsi" revision="manta-los-16.0" />
+
+</manifest>
