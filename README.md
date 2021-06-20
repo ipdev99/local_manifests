@@ -24,7 +24,7 @@ curl https://raw.githubusercontent.com/ipdev99/local_manifests/manta-l16/roomser
 ````
 or
 ````bash
-curl --create-dirs -L -o .repo/local_manifests/roomservice.xml -O -L https://raw.githubusercontent.com/ipdev99/local_manifests/manta-l16/roomservice.xml
+curl --create-dirs -L -o .repo/local_manifests/roomservice.xml https://raw.githubusercontent.com/ipdev99/local_manifests/manta-l16/roomservice.xml
 ````
 
 Then to sync up.
