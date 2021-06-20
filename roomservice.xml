@@ -19,7 +19,7 @@
   <remove-project name="LineageOS/android_vendor_lineage" />
 
   <!-- Add "manta" stuff -->
-  <project path="device/samsung/manta" name="android_device_samsung_manta" remote="followmsi" revision="los-16.0" />
+  <project path="device/samsung/manta" name="android_device_samsung_manta" remote="ipdev99" revision="los-16.0" />
   <project path="hardware/samsung_slsi/exynos5" name="android_hardware_samsung_slsi_exynos5" remote="followmsi" revision="manta-aosp-p" />
   <project path="kernel/samsung/manta" name="android_kernel_samsung_manta" remote="followmsi" revision="followmsi-pie" />
   <project path="hardware/invensense" name="android_hardware_invensense" remote="followmsi" revision="android-9.0-manta" />
