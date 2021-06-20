@@ -24,7 +24,7 @@ curl https://raw.githubusercontent.com/ipdev99/local_manifests/lineage-18.1/room
 ````
 or
 ````bash
-curl --create-dirs -L -o .repo/local_manifests/roomservice.xml -O -L https://raw.githubusercontent.com/ipdev99/local_manifests/lineage-18.1/roomservice.xml
+curl --create-dirs -L -o .repo/local_manifests/roomservice.xml https://raw.githubusercontent.com/ipdev99/local_manifests/lineage-18.1/roomservice.xml
 ````
 
 Then to sync up.
